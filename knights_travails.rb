@@ -38,5 +38,5 @@ def sum(a1, a2)
 end
 
 def position_allowed?(pos)
-  pos[0].between? 0, 7 && pos[1].between? 0, 7
+  pos[0].between?(0, 7) && pos[1].between?(0, 7)
 end
